@@ -1,0 +1,25 @@
+Third-party code in this repository
+===================================
+
+third_party/public_src/
+  Source: anubisyy, "CatBoost-LGBM-NNLS pipeline", Kaggle notebook, 2026.
+          https://www.kaggle.com/code/anubisyy/catboost-lgbm-nnls-pipeline-top-50-0-86517
+  Use: Task 1 CatBoost residual feature pipeline (prepare_state.py, state_model.py, train_state.py, state_inference.py)
+       and Task 2 onset/ongoing feature code (queue_features.py, queue_ongoing.py, train_onset*.py, train_ongoing.py).
+       The public queue model files in the weights dataset (models/public_queue/) come from the same notebook.
+  Changes: state_inference.py replaced by the notebook's tfb_source version; attribution headers added.
+
+third_party/t2_src/
+  Source: yeashusemwal, "TrafficFlowBench Trees + U-Net + CNN", Kaggle notebook, 2026.
+          https://www.kaggle.com/code/yeashusemwal/trafficflowbench-trees-u-net-cnn-lb-0-87
+  Use: Task 2 ongoing LightGBM ensemble training and inference code (task2_v10/v11/v15/v18, t2_gbm_infer.py), retrained by me.
+  Changes: attribution headers added; members retrained with the seeds listed in train/t2_member.py.
+
+Both notebooks were published on Kaggle as public notebooks. Their code is redistributed here, with credit, so that the
+solution can be reproduced. The licence terms are those stated on each notebook's Kaggle page.
+
+Organisers' code
+  TrafficFlowBench (J. Wu), https://github.com/jacky850/trafficflowbench-public : data release, scoring specification and scorers.
+  The scoring re-implementations in tfb/t1_common.py follow docs/SCORING_SPEC.md of that repository.
+
+Everything else (tfb/, train/, experiments/, eda/, kaggle/) is my own work (Homeshwar Nelakurthi).

@@ -1,0 +1,10 @@
+# Exact versions of the Kaggle image (Python 3.13.15, CUDA 12.8, 2x Tesla T4) on which tfb/run_all.py rebuilt the final submission
+# Full `pip freeze` of that image: requirements-kaggle-freeze.txt
+numpy==2.1.3
+pandas==2.3.3
+pyarrow==23.0.1
+scipy==1.16.3
+lightgbm==4.6.0
+catboost==1.2.10
+# CUDA 12.8 build; install with: pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0

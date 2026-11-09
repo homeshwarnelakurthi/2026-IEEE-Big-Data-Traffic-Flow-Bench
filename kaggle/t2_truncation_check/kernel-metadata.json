@@ -1,0 +1,3 @@
+{"id": "homeshwarrao/tfb-t2-truncation-check", "title": "tfb-t2-truncation-check", "code_file": "run.py", "language": "python", "kernel_type": "script",
+ "is_private": true, "enable_gpu": false, "enable_internet": false, "dataset_sources": ["homeshwarrao/tfb-code", "homeshwarrao/tfb-solution"], "kernel_sources": [],
+ "competition_sources": ["2026-ieee-big-data-traffic-flow-bench"], "model_sources": []}

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+data/
+cache/
+run/
+models/
+*.pt
+*.cbm
+*.npz
+submission*.csv
+.ipynb_checkpoints/
